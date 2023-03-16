@@ -1,11 +1,7 @@
-:root{
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 *{
-    background-color: black;
-    color: white;
     text-align: center;
-    font-family: "Comic Sans MS",Arial,'Times New Roman', Times, serif,sans-serif;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 body{
     display: flex;
