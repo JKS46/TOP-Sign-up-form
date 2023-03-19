@@ -1,18 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 *{
     text-align: center;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Skranji', cursive;
+    box-sizing: border-box;
 }
 body{
-    display: flex;
-    flex-direction: column;
     padding: 0;
     margin: 0;
 }
 main{
-    margin: 0 0 35px;
+    display: flex;
+    margin: 0 0 30px;
+}
+.left{
+    width: 40vw;
+    height: 100vh;
+    background-image: url(img/klemen-vrankar-lcT_p8kLCsc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#icon{
+    width: 60px;
+    height: 60px;
+}
+.right{
+    width:60vw;
 }
 footer{
+    color: gray;
+    background-color: #000000;
     position: fixed;
     bottom: 0;
     right: 0;
