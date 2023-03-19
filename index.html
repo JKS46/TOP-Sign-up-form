@@ -11,12 +11,10 @@
 <body>
     <main>
         <div class="left">
-            <div id="banner">
                 <div id="logo">
-                    <img src="img/nasa-JHyiw_dpALk-unsplash.jpg" alt="logo" id="icon">
                     <h3>Logo testing</h3>
+                    <img src="img/nasa-JHyiw_dpALk-unsplash.jpg" alt="logo" id="icon">
                 </div>
-            </div>
         </div>
         <div class="right">
             <h3>
@@ -27,19 +25,27 @@
             </h3>
             <div class="form">
                 <form action="#" method="get">
-                    <label for="firstName">*First Name</label>
+                    <div>
+                        <label for="firstName">*First Name</label>
                     <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
                     <label for="lastName">Last Name</label>
                     <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                    <label for="email">*Email</label>
+                    </div>
+                    <div>
+                        <label for="email">*Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required>
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" id="phone" placeholder="Phone">
-                    <label for="password">*Password</label>
+                    </div>
+                    <div>
+                        <label for="password">*Password</label>
                     <input type="password" name="password" id="password" placeholder="Password" required>
                     <label for="confirmPassword">*Confirm Password</label>
                     <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
-                    <button type="submit">Create Account</button>
+                    </div>
+                    <div>
+                        <button type="submit">Create Account</button>
+                    </div>
                 </form>
                 <p>
                     Already have an account? <a href="#">Sign in</a>

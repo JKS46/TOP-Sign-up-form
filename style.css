@@ -24,8 +24,30 @@ main{
     width: 60px;
     height: 60px;
 }
+#logo{
+    display: flex;
+    color: whitesmoke;
+    background-color: grey;
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+#logo h3{
+    margin-right: 20px;
+}
 .right{
     width:60vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+}
+form label,input{
+    margin: 20px;
 }
 footer{
     color: gray;
