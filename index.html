@@ -12,7 +12,7 @@
     <main>
         <div class="left">
                 <div id="logo">
-                    <h3>Logo testing</h3>
+                    <h3>Dream On</h3>
                     <img src="img/nasa-JHyiw_dpALk-unsplash.jpg" alt="logo" id="icon">
                 </div>
         </div>
@@ -23,30 +23,30 @@
             <h3>
                 You know you want to.
             </h3>
-            <div class="form">
-                <form action="#" method="get">
+            <div>
+                <form action="#" method="get" id="fedoraForms">
                     <div>
                         <label for="firstName">*First Name</label>
-                    <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
-                    <label for="lastName">Last Name</label>
-                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                    </div>
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        </div>
                     <div>
                         <label for="email">*Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <label for="phone">Phone</label>
-                    <input type="tel" name="phone" id="phone" placeholder="Phone">
-                    </div>
+                        <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone" maxlength="10">
+                        </div>
                     <div>
                         <label for="password">*Password</label>
-                    <input type="password" name="password" id="password" placeholder="Password" required>
-                    <label for="confirmPassword">*Confirm Password</label>
-                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
-                    </div>
-                    <div>
-                        <button type="submit">Create Account</button>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <label for="confirmPassword">*Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
                     </div>
                 </form>
+                <div>
+                    <button type="submit" form="fedoraForms">Create Account</button>
+                </div>
                 <p>
                     Already have an account? <a href="#">Sign in</a>
                 </p>

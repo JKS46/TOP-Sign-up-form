@@ -23,11 +23,12 @@ main{
 #icon{
     width: 60px;
     height: 60px;
+    border-radius: 50%;
 }
 #logo{
     display: flex;
     color: whitesmoke;
-    background-color: grey;
+    background: rgba(0,0,0,0.7);
     margin-top: 20vh;
     align-items: center;
     justify-content: center;
@@ -37,20 +38,42 @@ main{
 }
 .right{
     width:60vw;
+    background: #000000;
+    color: whitesmoke;
 }
 form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: 10px;
     background-color: gray;
+    font-size: 15px;
 }
 form label,input{
     margin: 20px;
 }
+input{
+    border: 3px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 3px;
+}
+input:invalid{
+    border: 3px solid darkviolet;
+    box-shadow: 3px 3px darkviolet;
+}
+input:focus{
+    border: 3px solid blue;
+    box-shadow: 5px 5px blue;
+}
+button{
+    padding: 5px;
+    font-size: medium;
+    border: 3px solid red;
+    border-radius: 8px;
+    color: black;
+    background: rgb(255, 140, 0);
+}
 footer{
-    color: gray;
+    color: whitesmoke;
     background-color: #000000;
     position: fixed;
     bottom: 0;
