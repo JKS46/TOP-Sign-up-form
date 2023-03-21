@@ -1,13 +1,11 @@
 # Sign up form
 
+image.png
 ### Todo 
 
 - [ ] check both passwords match
-- [ ] add js error text instead of default
-- [ ] change spacing problem in form
-- [ ] chane color
-- [ ] increase font size
-- [ ] better spacing buttons and h elements
+- [ ] style form for required text after pressing submit
+- [ ] increase font size in password box
 
 ### Credits
 

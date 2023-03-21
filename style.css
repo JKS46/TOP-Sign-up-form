@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 *{
-    text-align: center;
     font-family: 'Skranji', cursive;
     box-sizing: border-box;
 }
-body{
+body,html{
+    height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
 main{
     display: flex;
-    margin: 0 0 30px;
 }
 .left{
     width: 40vw;
     height: 100vh;
+    flex: 1;
     background-image: url(img/klemen-vrankar-lcT_p8kLCsc-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,29 +33,49 @@ main{
     margin-top: 20vh;
     align-items: center;
     justify-content: center;
+    font-size: larger;
 }
 #logo h3{
     margin-right: 20px;
 }
 .right{
     width:60vw;
+    height: 100vh;
     background: #000000;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 form{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    background-color: gray;
-    font-size: 15px;
+    width: 60vw;
+    background-color:rgb(128, 128, 128,0.3);
+    font-size: 14px;
+    padding-left: 20px;
 }
-form label,input{
-    margin: 20px;
+form .section{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+label{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    text-align: start;
+}
+span{
+    color: red;
+    position: absolute;
 }
 input{
     border: 3px solid #e5e7eb;
     border-radius: 8px;
     padding: 3px;
+    width: 70%;
 }
 input:invalid{
     border: 3px solid darkviolet;
@@ -65,6 +86,7 @@ input:focus{
     box-shadow: 5px 5px blue;
 }
 button{
+    margin-top: 30px;
     padding: 5px;
     font-size: medium;
     border: 3px solid red;
@@ -79,5 +101,6 @@ footer{
     bottom: 0;
     right: 0;
     left: 0;
+    text-align: center;
     height: 30px;
 }

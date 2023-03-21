@@ -17,7 +17,7 @@
                 </div>
         </div>
         <div class="right">
-            <h3>
+            <h3 class="heading">
                 This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. So, what are you waiting for? Sign up now!
             </h3>
             <h3>
@@ -25,32 +25,58 @@
             </h3>
             <div>
                 <form action="#" method="get" id="fedoraForms">
-                    <div>
-                        <label for="firstName">*First Name</label>
-                        <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
-                        <label for="lastName">Last Name</label>
-                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-                        </div>
-                    <div>
-                        <label for="email">*Email</label>
-                        <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off">
-                        <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Phone" maxlength="10">
-                        </div>
-                    <div>
-                        <label for="password">*Password</label>
-                        <input type="password" name="password" id="password" placeholder="Password" required>
-                        <label for="confirmPassword">*Confirm Password</label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
+                    <h3>Let's do this</h3>
+                    <div class="section">
+                        <label for="firstName">
+                            *First Name
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
+                            <div class="error">
+                                <span class="firstNameError"></span>
+                            </div>
+                        </label>
+                        <label for="lastName">
+                            Last Name
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        </label>
+                    </div>
+                    <div class="section">
+                        <label for="email">
+                            *Email
+                            <input type="email" name="email" id="email" placeholder="Email" required 
+                            autocomplete="off">
+                            <div class="error">
+                                <span class="emailError"></span>
+                            </div>
+                        </label>
+                        <label for="phone">
+                            Phone
+                            <input type="tel" name="phone" id="phone" placeholder="Phone" maxlength="10">
+                        </label>
+                    </div>
+                    <div class="section">
+                        <label for="password">
+                            *Password
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                            <div class="error">
+                                <span class="passwordError"></span>
+                            </div>
+                        </label>
+                        <label for="confirmPassword">
+                            *Confirm Password
+                            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
+                            <div class="error">
+                                <span class="confirmPasswordError"></span>
+                            </div>
+                        </label>
                     </div>
                 </form>
-                <div>
-                    <button type="submit" form="fedoraForms">Create Account</button>
-                </div>
-                <p>
-                    Already have an account? <a href="#">Sign in</a>
-                </p>
             </div>
+            <div>
+                <button type="submit" form="fedoraForms">Create Account</button>
+            </div>
+            <p id="signIn">
+                Already have an account? <a href="#">Sign in</a>
+            </p>
         </div>
     </main>
     <footer>
