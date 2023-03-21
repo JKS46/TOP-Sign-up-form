@@ -5,7 +5,7 @@
 
 ### Todo 
 
-- [ ] check both passwords match
+- [ ] check both passwords match required pattern using regular exp 
 - [ ] style form for required text after pressing submit
 - [ ] increase font size in password box
 
