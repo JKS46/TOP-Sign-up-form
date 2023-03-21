@@ -2,12 +2,12 @@
 
 ### Todo 
 
--[ ] check both passwords match
--[ ] add js error text instead of default
--[ ] change spacing problem in form
--[ ] chane color
--[ ] increase font size
--[ ] better spacing buttons and h elements
+- [ ] check both passwords match
+- [ ] add js error text instead of default
+- [ ] change spacing problem in form
+- [ ] chane color
+- [ ] increase font size
+- [ ] better spacing buttons and h elements
 
 ### Credits
 
