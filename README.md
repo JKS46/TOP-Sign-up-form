@@ -1,7 +1,5 @@
 # Sign up form
 
-Link => https://jks46.github.io/TOP-Sign-up-form/
-
 ### Todo 
 
 -[ ] check both passwords match
